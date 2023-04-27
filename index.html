@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog WebSite | Tailwind</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="css/tailwind.css" />
   </head>
   <body>
@@ -295,6 +296,43 @@
         </div>
       </section>
       <!-- End Offer Section -->
+      <!--Subscription Section-->
+      <section class="py-6 bg-gray-800 text-gray-50">
+        <div
+          class="container flex flex-col justify-center p-4 mx-auto space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-between lg:flex-row"
+        >
+          <div class="flex flex-col space-y-4 text-center lg:text-left">
+            <h1 class="text-5xl font-bold leading-none">
+              Get free weekly tips
+            </h1>
+            <p class="text-base">
+              Subscribe to my weekly newsletter to find out about the latest and
+              greatest news about just about everything!
+            </p>
+          </div>
+          <div
+            class="flex flex-row items-center self-center justify-center flex-shrink-0 shadow-md lg:justify-end"
+          >
+            <div class="flex flex-row">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="example@email.com"
+                class="p-3 rounded-l-lg w-3/5 s,:w-2/3"
+              />
+              <button
+                type="button"
+                class="w-2/5 p-3 font-semibold rounded-r-lg sm:w-1/3 bg-violet-400 text-gray-900"
+                class=""
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Subscription Section-->
     </div>
   </body>
 </html>
